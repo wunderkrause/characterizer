@@ -20,7 +20,7 @@ matrix = {
         },
         "Relationships": {
             "Standard": {
-                "Single": "I am not currenty seeing anyone.",
+                "Single": "I am not currently seeing anyone.",
                 "Dating": "I am dating someone.",
                 "Married": "I am married.",
                 "Divorced": "I am currently divorced.",
