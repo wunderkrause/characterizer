@@ -37,13 +37,16 @@ class Character:
             print(x)
 
     def export_markdown(self):
-
+        output = ""
         def list_traits(x):
+            trait_output = ""
             for k, v in self.traits[x].items():
-                print('+ ' + '**{}**: {}'.format(k, v))
+                """print('+ ' + '**{}**: {}'.format(k, v))"""
+                trait_output += '+ ' + '**{}**: {}'.format(k, v) + '\n'
+            return trait_output
 
         # Serialize character sheet output.
-        print('# My Character Sheet')
+        """print('# My Character Sheet')
         print('\n' + '## Name')
         print('\n' + '*' + self.fullname + '*')
         print('\n' + '## Gender')
@@ -61,4 +64,24 @@ class Character:
         print('\n' + '## Conflict')
         list_traits('Conflict')
         print('\n' + '## Health')
-        list_traits('Health')
+        list_traits('Health')"""
+        output += '# My Character Sheet'
+        output += '\n' + '## Name'
+        output += '\n' + '*' + self.fullname + '*' + '\n'
+        output += '\n' + '## Gender'
+        output += '\n' + '*' + self.gender + '*' + '\n'
+        output += '\n' + '## Physical Appearance' + '\n'
+        output += list_traits('Physical')
+        output += '\n' + '## Personality Traits' + '\n'
+        output += list_traits('Personality')
+        output += '\n' + '## Beliefs' + '\n'
+        output += list_traits('Beliefs')
+        output += '\n' + '## Past' + '\n'
+        output += list_traits('Past')
+        output += '\n' + '## Occupation' + '\n'
+        output += list_traits('Occupation')
+        output += '\n' + '## Conflict' + '\n'
+        output += list_traits('Conflict')
+        output += '\n' + '## Health' + '\n'
+        output += list_traits('Health')
+        return output
