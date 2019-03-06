@@ -15,7 +15,7 @@ Generate fictional characters with physical traits and personalities randomly se
 1) This is my first solo project after completing the Python course on Codecademy.com.
 2) I'll make usage more user-friendly at some point in the near future.
     * It definitely needs user-input to be done without editing files. :white_check_mark:
-    * Output should be in a file rather than console.
+    * Output should be in a file rather than console. :white_check_mark:
 
 ## Sample Output
 
