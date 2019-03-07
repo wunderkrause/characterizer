@@ -1,0 +1,40 @@
+# My Character Sheet
+## Name
+*Bob Johns*
+
+## Gender
+*MAle*
+
+## Physical Appearance
++ **Portly**: Pleasantly plump. Don't judge.
+
+## Personality Traits
++ **Joker**: I have an endless supply of jokes. Good ones.
++ **Forgetful**: I would forget my head if it wasn't attached.
++ **Moody**: I have a mood as ever-changing as the weather.
++ **No Sense of Direction**: Couldn't find my way out of an empty room with a turn-by-turn GPS.
++ **Breaker of Phones**: Somehow, I always manage to break the glass on my phone.
++ **Fear of Failure**: I have a fear of failure.
++ **Fear of Intimacy**: I have intimacy issues.
+
+## Beliefs
++ **One True God**: I believe in the one true God.
+
+## Past
++ **Partner Died**: My partner recently passed away, leaving me broken.
++ **Death of a Loved One**: Someone very special to me died.
++ **Rejected in Love**: We were so close, and then it was suddenly all over.
++ **Living Lie**: I'm living a lie, because the truth is too difficult.
++ **Part-time Criminal**: I do whatever I need to do to get by.
++ **High-school Graduate**: I graduated high school.
++ **Single**: I am not currenty seeing anyone.
++ **No Children**: I have no children.
+
+## Occupation
++ **Ex-Soldier**: Formerly a member of the armed forces, this ex-soldier has been discharged. Perhaps honorably. Perhaps not.
+
+## Conflict
++ **Diagnosis**: It's only been a couple days since the doctor handed me a troubling diagnosis.
+
+## Health
++ **Obsessive-Compulsive**: Did I remember to turn off the light in the bathroom? I better catch the next flight home and check.
