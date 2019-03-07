@@ -37,8 +37,11 @@ class Character:
             print(x)
 
     def export_markdown(self):
+        """Prints output to the file."""
         output = ""
+
         def list_traits(x):
+            """Lists out the traits."""
             trait_output = ""
             for k, v in self.traits[x].items():
                 """print('+ ' + '**{}**: {}'.format(k, v))"""
@@ -46,25 +49,6 @@ class Character:
             return trait_output
 
         # Serialize character sheet output.
-        """print('# My Character Sheet')
-        print('\n' + '## Name')
-        print('\n' + '*' + self.fullname + '*')
-        print('\n' + '## Gender')
-        print('\n' + '*' + self.gender + '*')
-        print('\n' + '## Physical Appearance')
-        list_traits('Physical')
-        print('\n' + '## Personality Traits')
-        list_traits('Personality')
-        print('\n' + '## Beliefs')
-        list_traits('Beliefs')
-        print('\n' + '## Past')
-        list_traits('Past')
-        print('\n' + '## Occupation')
-        list_traits('Occupation')
-        print('\n' + '## Conflict')
-        list_traits('Conflict')
-        print('\n' + '## Health')
-        list_traits('Health')"""
         output += '# My Character Sheet'
         output += '\n' + '## Name'
         output += '\n' + '*' + self.fullname + '*' + '\n'
